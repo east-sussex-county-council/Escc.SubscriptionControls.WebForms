@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Escc.AddressAndPersonalDetails;
 
-namespace EsccWebTeam.ServiceSubscriptions
+namespace Escc.SubscriptionControls.WebForms
 {
     /// <summary>
     /// Information about a subscription

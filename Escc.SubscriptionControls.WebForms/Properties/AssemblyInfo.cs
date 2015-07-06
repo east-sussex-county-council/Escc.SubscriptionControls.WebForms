@@ -4,15 +4,16 @@ using System.Runtime.InteropServices;
 using System.Security.Permissions;
 using System.Net.Mail;
 using System.Web;
+using System.Resources;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EsccWebTeam.ServiceSubscriptions")]
-[assembly: AssemblyDescription("Generic code to enable subscription to simple services, such as emails")]
+[assembly: AssemblyTitle("Escc.SubscriptionControls.WebForms")]
+[assembly: AssemblyDescription("Controls to subscribe to, activate and cancel a subscription to a simple service such as an email alert.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("East Sussex County Council")]
-[assembly: AssemblyProduct("EsccWebTeam.ServiceSubscriptions")]
+[assembly: AssemblyProduct("Escc.SubscriptionControls.WebForms")]
 [assembly: AssemblyCopyright("Copyright © East Sussex County Council 2009")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -45,3 +46,4 @@ using System.Web;
 // Assembly gets only permissions it needs 
 [assembly: System.Security.AllowPartiallyTrustedCallers]
 
+[assembly: NeutralResourcesLanguageAttribute("en-GB")]

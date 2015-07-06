@@ -2,12 +2,12 @@ using System;
 using System.ComponentModel;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using eastsussexgovuk.webservices.FormControls;
-using eastsussexgovuk.webservices.FormControls.Validators;
 using Escc.AddressAndPersonalDetails;
-using EsccWebTeam.ServiceSubscriptions.Properties;
+using Escc.FormControls.WebForms;
+using Escc.FormControls.WebForms.Validators;
+using Escc.SubscriptionControls.WebForms.Properties;
 
-namespace EsccWebTeam.ServiceSubscriptions
+namespace Escc.SubscriptionControls.WebForms
 {
     /// <summary>
     /// Control to capture an email address, to subscribe to a service delivered by email

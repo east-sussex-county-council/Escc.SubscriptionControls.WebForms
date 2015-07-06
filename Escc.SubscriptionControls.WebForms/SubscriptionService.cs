@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace EsccWebTeam.ServiceSubscriptions
+namespace Escc.SubscriptionControls.WebForms
 {
     /// <summary>
     /// A service which can be subscribed to

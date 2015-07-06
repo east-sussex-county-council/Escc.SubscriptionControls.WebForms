@@ -1,14 +1,10 @@
 using System;
-using System.Configuration;
-using System.Data;
-using System.Data.SqlClient;
-using System.Resources;
-using System.Text;
 using System.Net.Mail;
+using System.Text;
 using Escc.AddressAndPersonalDetails;
-using EsccWebTeam.ServiceSubscriptions.Properties;
+using Escc.SubscriptionControls.WebForms.Properties;
 
-namespace EsccWebTeam.ServiceSubscriptions
+namespace Escc.SubscriptionControls.WebForms
 {
     /// <summary>
     /// Static methods for subscribing to and unsubscribing from services
