@@ -53,8 +53,13 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Escc.AddressAndPersonalDetails.2.0.0\lib\Escc.AddressAndPersonalDetails.dll</HintPath>
     </Reference>
-    <Reference Include="Escc.FormControls.WebForms">
-      <HintPath>..\packages\Escc.FormControls.WebForms.1.1.0\lib\Escc.FormControls.WebForms.dll</HintPath>
+    <Reference Include="Escc.FormControls.WebForms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=06fad7304560ae6f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Escc.FormControls.WebForms.1.1.3\lib\Escc.FormControls.WebForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Escc.Html, Version=1.0.0.0, Culture=neutral, PublicKeyToken=06fad7304560ae6f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Escc.Html.2.0.0\lib\Escc.Html.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
