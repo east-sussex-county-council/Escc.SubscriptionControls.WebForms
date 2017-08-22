@@ -2,6 +2,7 @@ using System;
 using System.Net.Mail;
 using System.Text;
 using Escc.AddressAndPersonalDetails;
+using Escc.Services;
 using Escc.SubscriptionControls.WebForms.Properties;
 
 namespace Escc.SubscriptionControls.WebForms
@@ -35,8 +36,10 @@ namespace Escc.SubscriptionControls.WebForms
             message.IsBodyHtml = false;
             message.Body = body.ToString();
 
-            SmtpClient client = new SmtpClient();
-            client.Send(message);
+            // send it using the configured sender
+            var configuration = new ConfigurationServiceRegistry();
+            var emailService = ServiceContainer.LoadService<IEmailSender>(configuration);
+            emailService.SendAsync(message);
         }
     }
 }

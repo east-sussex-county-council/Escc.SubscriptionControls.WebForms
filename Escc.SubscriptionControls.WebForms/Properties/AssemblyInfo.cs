@@ -42,8 +42,4 @@ using System.Resources;
 
 // Recommended by FxCop
 [assembly: System.CLSCompliant(true)]
-
-// Assembly gets only permissions it needs 
-[assembly: System.Security.AllowPartiallyTrustedCallers]
-
 [assembly: NeutralResourcesLanguageAttribute("en-GB")]
